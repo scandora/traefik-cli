@@ -19,7 +19,7 @@ Designed for self-hosters, DevOps engineers, and anyone who manages Traefik depl
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/traefik-cli.git
+    git clone https://github.com/scandora/traefik-cli.git
     cd traefik-cli
     ```
 
