@@ -1,7 +1,7 @@
 # Traefik CLI
 
-Traefik CLI is a lightweight command-line interface for interacting with a running Traefik instance over its HTTP API.  
-It supports listing routers, services, middlewares, and more, with output available in JSON or human-readable table formats.  
+Traefik CLI is a lightweight command-line interface for interacting with a running Traefik instance over its HTTP API.
+It supports listing routers, services, middlewares, and more, with output available in JSON or human-readable table formats.
 Designed for self-hosters, DevOps engineers, and anyone who manages Traefik deployments.
 
 ---
@@ -41,7 +41,7 @@ Designed for self-hosters, DevOps engineers, and anyone who manages Traefik depl
 
 ## Usage
 
-Make sure you have your Traefik API accessible.
+Make sure you have your Traefik API accessible (usually on port 8080 or 8081 depending on configuration).
 
 You can pass the Traefik API URL at runtime:
 
@@ -65,7 +65,5 @@ Example:
 
 traefik-cli --url http://localhost:8081 http list-routers --output table
 
-License
-
+License:
 MIT License
-
