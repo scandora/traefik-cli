@@ -1,0 +1,12 @@
+setup.py
+traefik_cli/__init__.py
+traefik_cli/client.py
+traefik_cli/main.py
+traefik_cli.egg-info/PKG-INFO
+traefik_cli.egg-info/SOURCES.txt
+traefik_cli.egg-info/dependency_links.txt
+traefik_cli.egg-info/entry_points.txt
+traefik_cli.egg-info/requires.txt
+traefik_cli.egg-info/top_level.txt
+traefik_cli/commands/__init__.py
+traefik_cli/commands/http.py
