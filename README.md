@@ -1,7 +1,7 @@
 # Traefik CLI
 
-Traefik CLI is a lightweight command-line interface for interacting with a running Traefik instance over its HTTP API.
-It supports listing routers, services, middlewares, and more, with output available in JSON or human-readable table formats.
+Traefik CLI is a lightweight command-line interface for interacting with a running Traefik instance over its HTTP API.  
+It supports listing routers, services, middlewares, and more, with output available in JSON or human-readable table formats.  
 Designed for self-hosters, DevOps engineers, and anyone who manages Traefik deployments.
 
 ---
@@ -18,24 +18,24 @@ Designed for self-hosters, DevOps engineers, and anyone who manages Traefik depl
 
 1. Clone this repository:
 
-    ```bash
-    git clone https://github.com/scandora/traefik-cli.git
-    cd traefik-cli
-    ```
+```bash
+git clone https://github.com/scandora/traefik-cli.git
+cd traefik-cli
+```
 
 2. Create a virtual environment and activate it:
 
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 3. Install dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    pip install -e .
-    ```
+```bash
+pip install -r requirements.txt
+pip install -e .
+```
 
 ---
 
@@ -47,23 +47,32 @@ You can pass the Traefik API URL at runtime:
 
 ```bash
 traefik-cli --url http://localhost:8081 http list-routers
+```
 
 Or set the environment variable:
 
+```bash
 export TRAEFIK_API_URL=http://localhost:8081
 traefik-cli http list-routers
+```
 
-Output Formats
+---
+
+## Output Formats
 
 You can choose between:
 
-    JSON (--output json)
-
-    Table (--output table)
+- JSON (`--output json`)
+- Table (`--output table`)
 
 Example:
 
+```bash
 traefik-cli --url http://localhost:8081 http list-routers --output table
+```
 
-License:
+---
+
+## License
+
 MIT License
