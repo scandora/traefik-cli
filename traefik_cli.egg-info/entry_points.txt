@@ -1,2 +1,0 @@
-[console_scripts]
-traefik-cli = traefik_cli.main:main
